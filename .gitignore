@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# uv / virtual environments
+.venv/
+venv/
+env/
+.uv/
+.uv-cache/
+
+# Test and tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Datasets and generated data
+data/
+datasets/
+tokenized_data/
+
+# Experiment outputs and large artifacts
+runs/
+outputs/
+checkpoints/
+wandb/
+*.log
+*.ckpt
+
+# Archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.*
